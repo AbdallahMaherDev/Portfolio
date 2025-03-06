@@ -627,46 +627,66 @@ header .container {
   }
 }
 
-/* Projects Section Styles */
-/* Projects Filter Styles */
 /* Projects Filter Styles */
 .projects-filter {
   display: flex;
-  gap: 5px; /* تقليل المسافة بين الأزرار */
+  gap: 5px;
   align-items: center;
   justify-content: center;
-  padding: 0.5rem 0; /* تقليل الـ padding */
+  padding: 0.5rem 0;
 }
 
 .filter-btn {
-  padding: 8px 20px; /* تقليل الحجم */
-  background-color: rgba(255, 255, 255, 0.05); /* خلفية خفيفة جدًا */
+  padding: 8px 20px;
+  background-color: rgba(255, 255, 255, 0.05);
   color: var(--text-color);
-  border: 1px solid transparent; /* تقليل سمك الحدود */
-  border-radius: 15px; /* تقليل الريديوس */
-  font-size: 0.75rem; /* تقليل حجم الخط */
+  border: 1px solid transparent;
+  border-radius: 15px;
+  font-size: 0.75rem;
   font-weight: 600;
   cursor: pointer;
-  transition: all 0.3s ease; /* تقليل مدة التأثير */
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); /* ظل خفيف */
-  text-transform: none; /* إزالة التحويل الكبير */
-  letter-spacing: 0.5px; /* تقليل المسافة بين الحروف */
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  text-transform: none;
+  letter-spacing: 0.5px;
 }
 
 .filter-btn:hover {
-  background-color: rgba(255, 255, 255, 0.1); /* خلفية أفتح قليلًا */
-  border-color: var(--blue-alt-color); /* لون حدود أزرق فاتح */
-  color: var(--main-text-color); /* نص أفتح */
-  box-shadow: 0 3px 8px rgba(90, 155, 212, 0.2); /* ظل خفيف */
-  transform: translateY(-1px); /* تحريك خفيف لأعلى */
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: var(--blue-alt-color);
+  color: var(--main-text-color);
+  box-shadow: 0 3px 8px rgba(90, 155, 212, 0.2);
+  transform: translateY(-1px);
 }
 
 .filter-btn.active {
-  background: var(--blue-color); /* لون أزرق ثابت */
+  background: var(--blue-color);
   color: #ffffff;
-  border-color: var(--highlight-color); /* حدود بلون الهايلايت */
-  box-shadow: 0 4px 10px rgba(72, 130, 180, 0.3); /* ظل متوسط */
-  transform: scale(1.02); /* تكبير خفيف */
+  border-color: var(--highlight-color);
+  box-shadow: 0 4px 10px rgba(72, 130, 180, 0.3);
+  transform: scale(1.02);
+}
+@media (max-width: 768px) {
+  .projects-filter {
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 0.5rem;
+    justify-content: center;
+  }
+
+  .filter-btn {
+    padding: 6px 14px;
+    font-size: 0.65rem;
+    border-radius: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects-filter {
+    gap: 4px;
+  }
 }
 /* Projects Section Styles */
 .projects {
