@@ -1,0 +1,262 @@
+[
+  {
+    "id": 1,
+    "title": "My First Site",
+    "video": "assets/Data/projects/1/lofirst.gif",
+    "tech": ["HTML", "CSS"],
+    "liveDemo": "https://splendorous-starburst-2bd2e0.netlify.app",
+    "github": "https://github.com/abdallahmaherdev/seit1",
+    "year": 2023,
+    "description": "My first simple website showcasing basic HTML and CSS skills."
+  },
+  {
+    "id": 2,
+    "title": "Small Site with HTML & CSS",
+    "video": "assets/Data/projects/1/2.gif",
+    "tech": ["HTML", "CSS"],
+    "liveDemo": "https://scintillating-monstera-e231aa.netlify.app/",
+    "github": "https://github.com/AbdallahMaherDev/site-with-HTML-CSS",
+    "year": 2023,
+    "description": "This project is a simple web page designed with HTML & CSS, featuring some light animations to enhance the user experience."
+  },
+  {
+    "id": 3,
+    "title": "Site with Basic Animation",
+    "video": "assets/Data/projects/1/3.gif",
+    "tech": ["HTML", "CSS"],
+    "liveDemo": "https://ubiquitous-halva-5ddeba.netlify.app/",
+    "github": "https://github.com/AbdallahMaherDev/Site-with-Basic-Animation",
+    "year": 2023,
+    "description": "simple website Smooth and eye-catching animations"
+  },
+  {
+    "id": 4,
+    "title": "Dashboard website",
+    "video": "assets/Data/projects/1/4.gif",
+    "tech": ["HTML", "CSS"],
+    "liveDemo": "https://magnificent-bubblegum-9869d5.netlify.app/",
+    "github": "https://github.com/AbdallahMaherDev/Bisac-Dashboard",
+    "year": 2023,
+    "description": "This website serves as a simple yet functional dashboard containing multiple links."
+  },
+  {
+    "id": 5,
+    "title": "Results Summary Component",
+    "video": "assets/Data/projects/1/FEM1.gif",
+    "tech": ["HTML", "CSS"],
+    "liveDemo": "https://velvety-kataifi-a399ba.netlify.app/",
+    "github": "https://github.com/AbdallahMaherDev/ReSultS-SUmmary-ComponenT-1",
+    "year": 2023,
+    "description": "This project is a simple yet elegant component that displays a user's test results."
+  },
+  {
+    "id": 6,
+    "title": "Product Preview Card",
+    "video": "assets/Data/projects/1/FEM2.gif",
+    "tech": ["HTML", "CSS"],
+    "liveDemo": "https://incandescent-pavlova-6b97c6.netlify.app/",
+    "github": "https://github.com/AbdallahMaherDev/Product-Preview-Card-2",
+    "year": 2023,
+    "description": "This project focuses on creating a clean, modern, and responsive product preview card."
+  },
+  {
+    "id": 7,
+    "title": "QR code component",
+    "video": "assets/Data/projects/1/FEM3.gif",
+    "tech": ["HTML", "CSS"],
+    "liveDemo": "https://luxury-longma-ced26c.netlify.app/",
+    "github": "https://github.com/AbdallahMaherDev/QR-code-component-3",
+    "year": 2023,
+    "description": "a simple yet elegant QR code component that follows best practices in design and responsiveness."
+  },
+  {
+    "id": 8,
+    "title": "NFT preview card component",
+    "video": "assets/Data/projects/1/FEM4.gif",
+    "tech": ["HTML", "CSS"],
+    "liveDemo": "https://celebrated-horse-324770.netlify.app/",
+    "github": "https://github.com/AbdallahMaherDev/Nft-preview-card-4",
+    "year": 2023,
+    "description": "This project is a clean and modern card component that showcases an NFT preview with hover effects and a well-structured layout."
+  },
+  {
+    "id": 9,
+    "title": "Order summary card",
+    "video": "assets/Data/projects/1/FEM5.gif",
+    "tech": ["HTML", "CSS"],
+    "liveDemo": "https://magical-trifle-4a504d.netlify.app/",
+    "github": "https://github.com/AbdallahMaherDev/Order-SUMmary-Card-5",
+    "year": 2023,
+    "description": "a simple and elegant component that presents an order summary in a visually appealing way with a clean and modern UI."
+  },
+  {
+    "id": 10,
+    "title": "Stats preview card component",
+    "video": "assets/Data/projects/1/FEM6.gif",
+    "tech": ["HTML", "CSS"],
+    "liveDemo": "https://peppy-souffle-b73270.netlify.app/",
+    "github": "https://github.com/AbdallahMaherDev/Stats-preview-card-6",
+    "year": 2023,
+    "description": "This project is a visually appealing and responsive stats card that highlights key statistics with a modern UI."
+  },
+  {
+    "id": 11,
+    "title": "3-column preview card component",
+    "video": "assets/Data/projects/1/FEM7.gif",
+    "tech": ["HTML", "CSS"],
+    "liveDemo": "https://gentle-alpaca-373e77.netlify.app/",
+    "github": "https://github.com/AbdallahMaherDev/3-Column-Preview-CARD-7",
+    "year": 2023,
+    "description": "This project is a modern, responsive, and visually appealing card layout that showcases three different categories with a clean UI"
+  },
+  {
+    "id": 12,
+    "title": "Profile Card Component",
+    "video": "assets/Data/projects/1/FEM8.gif",
+    "tech": ["HTML", "CSS"],
+    "liveDemo": "https://tourmaline-medovik-186967.netlify.app/",
+    "github": "https://github.com/AbdallahMaherDev/Profile-card-8",
+    "year": 2023,
+    "description": "This project is a simple yet elegant profile card that displays user details in a visually appealing way."
+  },
+  {
+    "id": 13,
+    "title": "Testimonials grid section",
+    "video": "assets/Data/projects/1/FEM9.gif",
+    "tech": ["HTML", "CSS"],
+    "liveDemo": "https://glittering-crisp-6f6be5.netlify.app/",
+    "github": "https://github.com/AbdallahMaherDev/testimonials-grid-9",
+    "year": 2023,
+    "description": " This project is a modern and responsive testimonials grid that showcases user reviews in an aesthetically pleasing way."
+  },
+  {
+    "id": 14,
+    "title": "Social proof section",
+    "video": "assets/Data/projects/1/FEM10.gif",
+    "tech": ["HTML", "CSS"],
+    "liveDemo": "https://fancy-queijadas-6abfe7.netlify.app/",
+    "github": "https://github.com/AbdallahMaherDev/Social-proof-section-10",
+    "year": 2023,
+    "description": "This project is a visually appealing and responsive testimonial section that showcases user reviews and ratings effectively."
+  },
+  {
+    "id": 15,
+    "title": "Chat app CSS illustration",
+    "video": "assets/Data/projects/1/FEM11.gif",
+    "tech": ["HTML", "CSS"],
+    "liveDemo": "https://singular-pithivier-d40e0e.netlify.app/",
+    "github": "https://github.com/AbdallahMaherDev/CHAT-APP-CSS-IllUSTration-11",
+    "year": 2023,
+    "description": "This project features a beautifully designed chat app interface created entirely with HTML & CSS"
+  },
+  {
+    "id": 16,
+    "title": "Fylo Data Storage Component",
+    "video": "assets/Data/projects/1/FEM12.gif",
+    "tech": ["HTML", "CSS"],
+    "liveDemo": "https://beautiful-vacherin-f2be0d.netlify.app/",
+    "github": "https://github.com/AbdallahMaherDev/FYLO-Data-Storage-12",
+    "year": 2023,
+    "description": "a clean and modern storage component that visually represents the user's available and used storage."
+  },
+  {
+    "id": 17,
+    "title": "Four card feature section",
+    "video": "assets/Data/projects/1/FEM13.gif",
+    "tech": ["HTML", "CSS"],
+    "liveDemo": "https://chimerical-brioche-f31c00.netlify.app/",
+    "github": "https://github.com/AbdallahMaherDev/FOUR-Card-Feature-13",
+    "year": 2023,
+    "description": "This project is a clean and structured feature section that highlights four key aspects in a visually appealing way. It is fully responsive"
+  },
+  {
+    "id": 18,
+    "title": "Single price grid component",
+    "video": "assets/Data/projects/1/FEM14.gif",
+    "tech": ["HTML", "CSS"],
+    "liveDemo": "https://charming-lollipop-d704c3.netlify.app/",
+    "github": "https://github.com/AbdallahMaherDev/singLe-price-Grid-14",
+    "year": 2023,
+    "description": "a clean and structured feature section that highlights four key aspects in a visually appealing way."
+  },
+  {
+    "id": 19,
+    "title": "Clipboard landing page",
+    "video": "assets/Data/projects/1/FEM15.gif",
+    "tech": ["HTML", "CSS"],
+    "liveDemo": "https://dainty-shortbread-0d2d35.netlify.app/",
+    "github": "https://github.com/AbdallahMaherDev/Clipboard-landing-page-15",
+    "year": 2023,
+    "description": "This project is a modern and minimalistic landing page for a clipboard application. It is fully responsive and follows best practices in HTML & CSS"
+  },
+  {
+    "id": 20,
+    "title": "SampleWebsite",
+    "video": "assets/Data/projects/1/5.gif",
+    "tech": ["HTML", "CSS", "JavaScript"],
+    "liveDemo": "https://tourmaline-cranachan-0f86e0.netlify.app/",
+    "github": "https://github.com/AbdallahMaherDev/SampleWebsite",
+    "year": 2023,
+    "description": "This project is a simple yet elegant component that displays a user's test results in a visually appealing way."
+  },
+  {
+    "id": 21,
+    "title": "SampleWebsite With functionality",
+    "video": "assets/Data/projects/1/6.gif",
+    "tech": ["HTML", "CSS", "JavaScript"],
+    "liveDemo": "https://astonishing-travesseiro-87b660.netlify.app/",
+    "github": "https://github.com/AbdallahMaherDev/SampleWebsite-js",
+    "year": 2024,
+    "description": "This project is a  responsive  website built with HTML, CSS, and JS, featuring smooth scrolling navigation"
+  },
+  {
+    "id": 22,
+    "title": "Hangman",
+    "video": "assets/Data/projects/1/7.gif",
+    "tech": ["JavaScript"],
+    "liveDemo": "https://fabulous-cactus-27159f.netlify.app/",
+    "github": "https://github.com/AbdallahMaherDev/Hangman",
+    "year": 2024,
+    "description": "This project is a A website featuring a Hangman game with categories like programming,"
+  },
+  {
+    "id": 23,
+    "title": "Image_Slider_Project",
+    "video": "assets/Data/projects/1/8.gif",
+    "tech": ["HTML", "CSS", "JavaScript"],
+    "liveDemo": "https://hilarious-cendol-5395c3.netlify.app/",
+    "github": "https://github.com/AbdallahMaherDev/ImageSliderProject",
+    "year": 2024,
+    "description": "A simple image slider built with HTML, CSS, and JavaScript. Features navigation controls and pagination."
+  },
+  {
+    "id": 24,
+    "title": "Input_Progress_Bar",
+    "video": "assets/Data/projects/1/9.gif",
+    "tech": ["HTML", "CSS", "JavaScript"],
+    "liveDemo": "https://gorgeous-unicorn-8db37d.netlify.app/",
+    "github": "https://github.com/AbdallahMaherDev/InputProgressBar",
+    "year": 2024,
+    "description": " A simple input progress bar built with HTML, CSS, and JavaScript. Tracks character count and displays a progress bar"
+  },
+  {
+    "id": 25,
+    "title": "Memory_Match_Game",
+    "video": "assets/Data/projects/1/10.gif",
+    "tech": ["JavaScript"],
+    "liveDemo": "https://spectacular-platypus-c24a63.netlify.app/",
+    "github": "https://github.com/AbdallahMaherDev/MemoryMatchGame",
+    "year": 2024,
+    "description": "This project is A memory match puzzle with HTML, CSS, and JavaScript, eatures block flipping"
+  },
+  {
+    "id": 26,
+    "title": "ToDoListApp",
+    "video": "assets/Data/projects/1/11.gif",
+    "tech": ["JavaScript"],
+    "liveDemo": "https://beamish-frangipane-6267fb.netlify.app/",
+    "github": "https://github.com/AbdallahMaherDev/ToDoListApp",
+    "year": 2024,
+    "description": "A simple To-Do List app built with HTML, CSS, and JavaScript. Features task addition"
+  }
+]

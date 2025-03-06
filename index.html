@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abdallah Maher - FrontEnd Developer</title>
+    <!-- Normalize CSS (first to reset defaults) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <!-- Google Fonts (load fonts early for styling) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome (icons needed for styling) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <!-- Main Styles (last CSS to override others) -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Scripts (async module for dotLottie) -->
+    <script
+      src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
+      type="module"
+      async
+    ></script>
+  </head>
+  <body>
+    <!--header -->
+    <header>
+      <nav>
+        <div class="container">
+          <!--header_logo -->
+          <div class="header_logo-container">
+            <div class="header_logo-img-cont">
+              <img
+                src="assets/3.jpg"
+                alt="Abdallah Maher"
+                loading="lazy"
+                width="50"
+                height="50"
+              />
+            </div>
+            <span class="header_logo-sub">Abdallah Maher</span>
+          </div>
+          <!--header_links -->
+          <div class="header_main">
+            <ul class="header_links">
+              <li>
+                <a href="#home" aria-label="Home"
+                  ><i class="fas fa-home"></i><span>Home</span></a
+                >
+              </li>
+              <li>
+                <a href="#about" aria-label="About Me"
+                  ><i class="fas fa-user"></i><span>About Me</span></a
+                >
+              </li>
+              <li>
+                <a href="#projects" aria-label="Projects"
+                  ><i class="fas fa-briefcase"></i><span>Projects</span></a
+                >
+              </li>
+              <li>
+                <a href="#contact" aria-label="Contact"
+                  ><i class="fas fa-envelope"></i><span>Contact</span></a
+                >
+              </li>
+            </ul>
+            <button class="header_toggle" aria-label="Toggle Menu">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--main -->
+    <main>
+      <!--main_landing -->
+      <section class="landing" id="home">
+        <!-- إضافة id هنا -->
+        <div class="container">
+          <div class="text-landing">
+            <h1>
+              Hey, My Name Is <span class="highlight">Abdallah Maher</span>
+            </h1>
+            <p>
+              I am a Frontend developer based in Egypt.<br />
+              <span class="specialties"
+                >My specialties are HTML, CSS, and JavaScript, React.<br
+              /></span>
+              I love building apps that are delightful to use.
+            </p>
+            <a
+              href="#projects"
+              class="button-landing"
+              role="button"
+              aria-label="Navigate to Projects Section"
+            >
+              <span class="button-landing__text">See My Projects</span>
+              <i
+                class="fas fa-arrow-right button-landing__icon"
+                aria-hidden="true"
+              ></i>
+            </a>
+          </div>
+          <div class="animation-landing">
+            <dotlottie-player
+              src="https://lottie.host/c752bcfe-9184-4bd4-a348-6c5889ede528/CIoAgbZhe0.lottie"
+              background="transparent"
+              speed="0.1"
+              style="width: 400px; height: 400px"
+              loop
+              autoplay
+            >
+              <img src="fallback-image.png" alt="Animation Fallback" />
+            </dotlottie-player>
+          </div>
+        </div>
+        <div class="background-animation" id="background-animation">
+          <dotlottie-player
+            src="https://lottie.host/56c3da18-a2c2-40f4-bda4-a33ef61a86cc/f9dSNg6KHW.lottie"
+            background="transparent"
+            speed="1"
+            style="width: 300%; height: 300%"
+            loop
+            autoplay
+          ></dotlottie-player>
+        </div>
+      </section>
+      <!--main_about-->
+      <section id="about" class="about">
+        <div class="container">
+          <div class="section-title">
+            <h2>About Me</h2>
+            <p class="section-subtitle">Get to know more about me</p>
+          </div>
+          <div class="about-content">
+            <div class="about-text">
+              <p class="about-text">
+                I am a passionate
+                <span class="highlight"> Frontend Developer</span>
+                with expertise in
+                <span class="highlight">HTML, CSS, and React , JavaScript</span
+                >. <br /><br />
+
+                I specialize in building
+                <span class="highlight"
+                  >interactive, user-friendly, and responsive</span
+                >
+                web applications. My goal is to create seamless digital
+                experiences blend
+                <span class="highlight">aesthetics with functionality</span>.
+                <br /><br />
+
+                I enjoy solving <span class="highlight">complex problems</span>,
+                optimizing performance, and continuously learning
+                <span class="highlight">new technologies</span> to stay ahead in
+                the ever-evolving web development landscape. <br /><br />...
+                Let’s build something amazing together! 🚀
+              </p>
+            </div>
+            <div class="about-image">
+              <img src="assets/3.jpg" alt="Abdallah Maher" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--main_projects-->
+      <section id="projects" class="projects">
+        <div class="container">
+          <div class="section-title">
+            <h2>Projects</h2>
+            <p class="section-subtitle">Some of my recent work</p>
+          </div>
+          <div class="projects-filter">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="HTML">HTML</button>
+            <button class="filter-btn" data-filter="CSS">CSS</button>
+            <button class="filter-btn" data-filter="JavaScript">
+              JavaScript
+            </button>
+            <button class="filter-btn" data-filter="React">React</button>
+          </div>
+          <div id="projects-container" class="projects-grid"></div>
+        </div>
+      </section>
+      <!--main_contact-->
+      <section id="contact" class="contact">
+        <div class="container">
+          <div class="section-title">
+            <h2>Contact</h2>
+            <p class="section-subtitle">Let's get in touch</p>
+          </div>
+          <div class="social-cards">
+            <a
+              href="https://www.facebook.com/abdomaher2020"
+              class="social-card"
+              aria-label="Facebook profile"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a
+              href="https://x.com/abdallahma28420"
+              class="social-card"
+              aria-label="X profile"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/abdallah-maher-740a73335/"
+              class="social-card"
+              aria-label="LinkedIn profile"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a
+              href="https://github.com/AbdallahMaherDev"
+              class="social-card"
+              aria-label="GitHub profile"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--footer -->
+    <footer class="site-footer">
+      <p>© 2025 Abdallah Maher. All rights reserved.</p>
+    </footer>
+    <!-- Main JavaScript -->
+    <script defer src="js/main.js"></script>
+  </body>
+</html>
