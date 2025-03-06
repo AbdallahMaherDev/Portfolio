@@ -13,6 +13,6 @@ CSS3 (Flexbox & Grid) – Styling & layout
 JavaScript (ES6+) – Interactivity
 
 Live Demo
-🔗 Check it out here()
+🔗 Check it out here(https://peaceful-licorice-c2d8fa.netlify.app/)
 
 Let me know if you need any changes! 🚀
