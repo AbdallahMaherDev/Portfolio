@@ -46,7 +46,6 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -300,7 +299,7 @@ header .container {
 }
 
 .button-landing {
-  display: inline-flex;
+  display: inline-block;
   align-items: center;
   gap: 0.5rem;
   padding: 12px 24px;
@@ -317,9 +316,6 @@ header .container {
   position: relative;
   overflow: hidden;
   text-decoration: none;
-  z-index: 10;
-  pointer-events: auto;
-  will-change: transform, background, color;
 }
 
 .button-landing__text {
@@ -359,36 +355,9 @@ header .container {
   border: 1px solid var(--dark-background);
 }
 
-.button-landing:hover .button-landing__icon {
-  transform: translateX(5px);
-  color: #000;
-}
-
-.button-landing:focus {
-  background: var(--silver-accent);
-  color: #000;
-}
-
-.button-landing:focus .button-landing__icon {
-  color: #000;
-  transform: translateX(5px);
-}
-
 .animation-landing {
   display: none;
   transition: opacity 0.5s ease;
-}
-
-.background-animation {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.1;
-  display: none;
-  justify-content: center;
-  align-items: center;
 }
 
 /* Responsive Styles */
@@ -480,19 +449,9 @@ header .container {
     text-align: left;
     transform: translateX(0);
   }
-  .button-landing {
-    padding: 12px 24px;
-    font-size: 1rem;
-    z-index: 10;
-    pointer-events: auto;
-  }
   .animation-landing {
     display: flex;
     transition: opacity 0.5s ease;
-  }
-
-  .background-animation {
-    display: flex;
   }
 }
 
